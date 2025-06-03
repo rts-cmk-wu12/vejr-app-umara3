@@ -29,7 +29,7 @@ const Weather = () => {
 
       const { lat, lon, name } = geoData[0];
 
-      // Fetch weather data
+      
       const weatherResponse = await fetch(
         `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&appid=${apiKey}`
       );
