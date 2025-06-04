@@ -1,0 +1,68 @@
+
+
+body {
+  background-image: url(./background-gif2.gif);
+  background-repeat: no-repeat;
+    background-size: cover; 
+   /* background-position: center;*/ 
+    font-family: Arial, sans-serif;
+    text-align: center;
+    
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    background: lightblue;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 90%;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.weather-info {
+    margin-top: 20px;
+}
+
+.weather-info img {
+    width: 80px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    input, button {
+        font-size: 16px;
+    }
+
+    .weather-info img {
+        width: 60px;
+    }
+}
